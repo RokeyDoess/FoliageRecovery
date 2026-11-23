@@ -3,8 +3,8 @@ FoliageRecovery is a Paper plugin that restores leaf blocks changed by Aeternum 
 
 Install the JAR on Paper 26.3 and run `/foliagerecovery recover all` from the server console. That command disables Aeternum Seasons to prevent repainting.
 
-<img width="2560" height="1369" alt="Left: After Right: Before" src="https://github.com/user-attachments/assets/ac8bc17b-f8ff-4678-abcd-5fbd74a22f4c" />
-Left: After Right: Before
+<img width="2560" height="1369" alt="2026-11-23_10 48 06" src="https://github.com/user-attachments/assets/fc5007ae-89f6-4cd1-96ba-d6655f9eb89f" />
+Before/After
 
 [Download the latest JAR](https://github.com/RokeyDoess/FoliageRecovery/releases/latest).
 
