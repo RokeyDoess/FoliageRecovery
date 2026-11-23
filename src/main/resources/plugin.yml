@@ -1,0 +1,14 @@
+name: FoliageRecovery
+version: 0.2.1
+main: dev.foliagerecovery.RecoveryPlugin
+api-version: '1.21'
+description: Preview, restore, and roll back seasonal leaf conversions.
+softdepend: [AeternumSeasons]
+commands:
+  foliagerecovery:
+    aliases: [fr]
+    description: Foliage recovery administration
+    permission: foliagerecovery.admin
+permissions:
+  foliagerecovery.admin:
+    default: op

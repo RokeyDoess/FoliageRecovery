@@ -1,0 +1,10 @@
+# Preview jobs read blocks without editing them. Nothing starts on enable.
+operations-per-tick: 2048
+milliseconds-per-tick: 2
+progress-interval-seconds: 15
+prefetch-chunks: 12
+checkpoint-interval-seconds: 300
+# recover disables Aeternum through the server plugin manager and snapshots its
+# saved leaf data before editing. It remains disabled while this plugin is
+# installed and its recovery marker exists, including after server restarts.
+# Unrecorded leaves use the closest reachable trunk evidence within six steps.
