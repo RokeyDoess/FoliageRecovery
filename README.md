@@ -1,6 +1,8 @@
 # FoliageRecovery
 FoliageRecovery is a Paper plugin that restores leaf blocks changed by Aeternum Seasons. It scans existing chunks without generating new terrain, uses saved originals when available, and repairs stray leaves when nearby trunks and canopies support a match. It includes progress checkpoints and rollback journals.
 
+Due to the nature of the plugin (checking every chunk in the world), a recovery run will take a while on larger worlds. My personal Server had ~1.2 million chunks and took around 12 hours for a full run, this time is entirely dependent on world size and how many trees need to be corrected. 
+
 Install the JAR on Paper 26.3 and run `/foliagerecovery recover all` from the server console. That command disables Aeternum Seasons to prevent repainting.
 
 <img width="2560" height="1369" alt="2026-11-23_10 48 06" src="https://github.com/user-attachments/assets/fc5007ae-89f6-4cd1-96ba-d6655f9eb89f" />
